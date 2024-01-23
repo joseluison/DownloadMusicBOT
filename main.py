@@ -9,7 +9,7 @@ import yt_dlp
 with open('./configbot.json') as archive:
     botInfo = json.load(archive)
 
-dp = telebot.TeleBot(botInfo["TOKEN"], parse_mode='HTML')
+dp = telebot.TeleBot(botInfo["6815294480:AAECQsSc-ug3ikZqcUCvg8fZBCRu8ga-bNA"], parse_mode='HTML')
 
 filePath = os.getcwd() + '/data/user/'
 
